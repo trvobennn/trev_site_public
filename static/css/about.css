@@ -1,0 +1,17 @@
+div.about{
+  height: auto;
+}
+
+div.about_left{
+  padding: 40px 520px 30px 40px;
+  text-align: center;
+  background-image: url("../about_img.jpg");
+  background-alt: "landscape painting";
+  background-position: 500px 0px;
+  background-repeat: no-repeat;
+  background-size: 500px 945px;
+}
+
+
+/*/<img class="about_img" src="{{url_for('static',filename='/about_img.jpg')}}"
+         alt="" data-image-width="1280" data-image-height="840">

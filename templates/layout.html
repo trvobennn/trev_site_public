@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Trevor B Flask App</title>
+      <link rel="stylesheet" href="{{url_for('static',filename='css/main.css')}}">
+
+  </head>
+  <body>
+    <header>
+
+
+        <strong><nav>
+          <ul class="menu">
+              <li><a href="{{ url_for('home') }}">Home</a></li>
+              <li><a href="{{ url_for('about') }}">About</a></li>
+              <li><a href="{{ url_for('contact') }}">Contact</a></li>
+              <li><a href="https://github.com/trvobennn" target="_blank">My GitHub</a></li>
+          </ul>
+        </nav></strong>
+
+    </header>
+
+
+    {% block content %}
+    {% endblock %}
+
+
+  <footer><p>Page by Trevor Bennett, 2022</p></footer>
+  </body>
+</html>

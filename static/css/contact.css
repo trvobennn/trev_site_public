@@ -1,0 +1,23 @@
+h2 {
+  font-family: 'Georgia', Times, Serif;
+  color: rgb(210,210,220);
+  letter-spacing: 1px;
+}
+
+h4 {
+  font-family: 'Georgia', Times, Serif;
+  color: rgb(90,130,190);
+  font-size: 1.2em;
+  letter-spacing: -1px;
+}
+
+div.contact_left{
+  height: 400px;
+  padding: 70px 480px 10px 0px;
+  text-align: center;
+  background-image: url("../contact_img.jpg");
+  background-alt: "mossy house";
+  background-position: 500px 60px;
+  background-repeat: no-repeat;
+  background-size: 480px 360px;
+}

@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+<link rel="stylesheet" href="{{url_for('static',filename='css/about.css')}}">
+<div class="container">
+<div class="about">
+    <div class="about_left">
+    <img class="self_img" src="{{url_for('static',filename='/firstselfimg.jpg')}}"
+         alt="picture of Trevor B" data-image-width="1104" data-image-height="1340">
+
+    <h2>About Me</h2>
+    <p>I was born in 1992 and have lived in the Tampa, FL area my whole life thus far.</p>
+    <p>I attended Wesley Chapel High and followed that with an AA diploma from
+        Hillsborough Community College (2015).
+</p>
+    <p>
+        I have held a number of jobs in the service sector and manufacturing over the past 10 years.
+        Some of these were through temp agencies. I had gone through tech school and trained in welding as an
+        expedient but found rather little work available in Central Florida for manufacturing or in welding or
+        fabricating generally. That work was inconsistent and neither did I find it suitable as a long term
+        prospect for a number of reasons.
+    </p>
+    <p>
+        As of 2021, I began learning Python and the basics of MS Azure. I believe the GitHub is a
+        decent reflection of what I have learned. I have also read texts on Python, computer science more
+        broadly, and dabbled in R.
+    </p></div>
+
+</div>
+
+</div>
+{% endblock %}
