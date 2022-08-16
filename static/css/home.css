@@ -12,8 +12,8 @@ body {
   background-alt: "lark on a tree branch";
   height: 600px;
   background-repeat: no-repeat;
-  background-position: 0px 80px;
-  background-size: cover;
+  background-position: 0px 84px;
+  background-size: 100% 122%;
 }
 /*/<img class="home_img" src="{{url_for('static',filename='/home_img.jpg')}}"
          alt="" data-image-width="1280" data-image-height="853">
