@@ -13,7 +13,7 @@ body {
   height: 600px;
   background-repeat: no-repeat;
   background-position: 0px 84px;
-  background-size: 100% 122%;
+  background-size: 100% 732px;
 }
 /*/<img class="home_img" src="{{url_for('static',filename='/home_img.jpg')}}"
          alt="" data-image-width="1280" data-image-height="853">
